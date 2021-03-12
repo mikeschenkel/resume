@@ -1,0 +1,23 @@
+.icon {
+  --icon-size: 1em;
+  width: var(--icon-size);
+  height: var(--icon-size);
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.icon--sun {
+  display: none;
+
+  [data-theme='dark'] & {
+    display: inline-block;
+  }
+}
+
+.icon--moon {
+  display: inline-block;
+
+  [data-theme='dark'] & {
+    display: none;
+  }
+}

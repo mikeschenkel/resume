@@ -1,0 +1,23 @@
+h1,
+h2 {
+  font-family: 'Martel', serif;
+  font-weight: 800;
+  color: var(--color-text-heading);
+}
+
+h1 {
+  font-size: calc(2.25rem + 1vw);
+  margin-bottom: var(--s0);
+}
+
+a {
+  color: var(--color-text-link);
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  text-underline-offset: 0.08em;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}

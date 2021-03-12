@@ -1,0 +1,49 @@
+{
+  "name": "Mike Schenkel",
+  "occupation": "Front-End Developer",
+  "location": "Leeuwarden, NL",
+  "avatar": "avatar.jpg",
+  "email": "mikeschenkel@gmail.com",
+  "telephone": "",
+  "website": "https://mikeschenkel.nl",
+  "skills": [
+    "Front-end development",
+    "Front-end architectuur",
+    "HTML semantiek",
+    "CSS architectuur",
+    "Code kwaliteitswaarborging",
+    "Progressive enhancement",
+    "Webstandaarden",
+    "Webtoegankelijkheid",
+    "Webadvies",
+    "Front-end code analyse",
+    "Projectstructuur",
+    "Workflow"
+  ],
+  "languages": [
+    {
+      "name": "Nederlands",
+      "level": "Moedertaal"
+    },
+    {
+      "name": "Engels",
+      "level": "Uitstekend"
+    },
+    {
+      "name": "Duits",
+      "level": "Redelijk"
+    }
+  ],
+  "social": [
+    {
+      "name": "Github",
+      "user": "@mikeschenkel",
+      "url": "https://github.com/mikeschenkel"
+    },
+    {
+      "name": "LinkedIn",
+      "user": "mikeschenkel",
+      "url": "https://www.linkedin.com/in/mikeschenkel"
+    }
+  ]
+}

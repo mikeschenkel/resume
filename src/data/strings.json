@@ -1,0 +1,17 @@
+{
+  "titles": {
+    "professional": "Professioneel",
+    "community": "Community",
+    "education": "Educatie",
+    "skills": "Skills",
+    "languages": "Talen"
+  },
+  "labels": {
+    "email": "Email",
+    "telephone": "Telefoon",
+    "print": "Print CV",
+    "present": "heden",
+    "lastUpdated": "Laatste update",
+    "darkMode": "Verander weergave"
+  }
+}

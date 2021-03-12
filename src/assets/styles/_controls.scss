@@ -1,0 +1,15 @@
+.controls {
+  display: flex;
+  flex-direction: column;
+  padding-right: var(--s0);
+  padding-bottom: var(--s0);
+
+  @media (min-width: 30em) {
+    padding-right: var(--s3);
+    padding-bottom: var(--s2);
+  }
+
+  > * + * {
+    margin-top: var(--s-2);
+  }
+}

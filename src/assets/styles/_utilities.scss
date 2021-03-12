@@ -1,0 +1,41 @@
+.on-top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 999999;
+}
+
+.bulletlist {
+  padding-left: 1em;
+  margin-bottom: 0;
+}
+
+.lead {
+  > * + * {
+    margin-top: var(--s1);
+  }
+}
+
+.avatar {
+  --icon-size: 2em;
+  width: var(--icon-size);
+  height: var(--icon-size);
+  display: inline-block;
+  border-radius: 50%;
+  vertical-align: -0.55em;
+  margin-top: var(--s-2);
+  margin-right: var(--s-3);
+  border: 2px solid var(--color-border-primary);
+}
+
+.sr-only {
+  &:not(:focus):not(:active) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+}
