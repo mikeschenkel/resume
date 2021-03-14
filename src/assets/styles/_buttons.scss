@@ -21,6 +21,14 @@
   }
 
   .icon {
-    --icon-size: 1.6em;
+    --icon-size: 1.6rem;
   }
+}
+
+.btn__icon {
+  background: var(--button-icon);
+  background-repeat: no-repeat;
+  margin: 0 0 0 0.15em;
+  transform: translateY(1px);
+  filter: var(--button-icon-filter);
 }
