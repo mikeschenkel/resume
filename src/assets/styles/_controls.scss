@@ -12,4 +12,8 @@
   > * + * {
     margin-top: var(--s-2);
   }
+
+  .no-js & {
+    display: none;
+  }
 }
