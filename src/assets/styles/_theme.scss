@@ -31,6 +31,7 @@
   --color-icon-primary: var(--color-text-link);
   --color-organization-link: var(--color-text-link);
   --color-shadow-primary: 0 5px 15px 5px rgba(0, 0, 0, 0.05);
+  --color-shadow-secondary: 0 5px 15px 5px rgba(0, 0, 0, 0.15);
 }
 
 @mixin color-scheme-dark {
