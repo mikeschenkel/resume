@@ -1,4 +1,4 @@
-{%- set absolutePageUrl -%}{{ page.url | url | absoluteUrl(meta.url) }}{%- endset -%}
+{%- set absolutePageUrl -%}{{ page.url | url | absoluteUrl(site.url) }}{%- endset -%}
 {%- set pageTitle -%}{{ author.name }}{% if author.occupation %} - {{ author.occupation }}{% endif %}{% if author.location %} in {{ author.location }}{% endif %}{%- endset -%}
 {%- set pageDescription -%}Online Resume of {{ author.name }}{%- endset -%}
 
@@ -15,11 +15,11 @@
 <meta property="og:title" content="{{ pageTitle }}">
 <meta property="og:description" content="{{ pageDescription }}">
 <meta property="og:url" content="{{ absolutePageUrl }}">
-<meta property="og:locale" content="{{ meta.locale }}">
+<meta property="og:locale" content="{{ site.locale }}">
 <meta name="twitter:card" content="summary">
 {%- if author.avatar -%}
   {%- set avatarUrl -%}/assets/images/{{ author.avatar }}{% endset %}
-  <meta property="og:image" content="{{ avatarUrl | url | absoluteUrl(meta.url) }}">
+  <meta property="og:image" content="{{ avatarUrl | url | absoluteUrl(site.url) }}">
 {%- endif -%}
 
 {# JSON LD #}
