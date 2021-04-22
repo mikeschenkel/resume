@@ -1,8 +1,8 @@
 @font-face {
-  font-family: 'Martel';
+  font-family: 'Atkinson-Hyperlegible';
+  src: url('/assets/fonts/Atkinson-Hyperlegible-Bold.woff2') format('woff2'),
+       url('/assets/fonts/Atkinson-Hyperlegible-Bold.woff') format('woff');
   font-style: normal;
-  font-weight: 800;
-  font-display: swap;
-  src: url('../fonts/martel-800.woff2') format('woff2'),
-       url('../fonts/martel-800.woff');
+  font-weight: 700;
+  font-display: fallback;
 }
